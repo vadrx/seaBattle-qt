@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/images">
+        <file>StartBack.png</file>
+        <file>FieldBack.png</file>
+        <file>sh_1.png</file>
+        <file>Half.png</file>
+        <file>Kill.png</file>
+        <file>Dot.png</file>
+        <file>PlacingBack.png</file>
+        <file>sh_2.png</file>
+        <file>sh_3.png</file>
+        <file>sh_4.png</file>
+        <file>cell.png</file>
+    </qresource>
+</RCC>
