@@ -55,14 +55,14 @@ QRectF MyPoint::boundingRect() const
     return QRectF(-14,-14,_width,_height);
 }
 void MyPoint::initPix(){
-    dot = new QPixmap(":/new/images/Dot.png");
-    cell = new QPixmap(":/new/images/cell.png");
-    half = new QPixmap(":/new/images/Half.png");
-    kill = new QPixmap(":/new/images/Kill.png");
-    sh_1 = new QPixmap(":/new/images/sh_1.png");
-    sh_2 = new QPixmap(":/new/images/sh_2.png");
-    sh_3 = new QPixmap(":/new/images/sh_3.png");
-    sh_4 = new QPixmap(":/new/images/sh_4.png");
+    dot = new QPixmap(":/images/Dot.png");
+    cell = new QPixmap(":/images/cell.png");
+    half = new QPixmap(":/images/Half.png");
+    kill = new QPixmap(":/images/Kill.png");
+    sh_1 = new QPixmap(":/images/sh_1.png");
+    sh_2 = new QPixmap(":/images/sh_2.png");
+    sh_3 = new QPixmap(":/images/sh_3.png");
+    sh_4 = new QPixmap(":/images/sh_4.png");
 }
 void MyPoint::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {

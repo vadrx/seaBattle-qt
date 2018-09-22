@@ -75,13 +75,13 @@ MainWindow::~MainWindow()
 void MainWindow::startGame()
 {
     ui->stackedWidget->setCurrentIndex(0);
-    scene->addPixmap(QPixmap(":/new/images/StartBack.png"));
+    scene->addPixmap(QPixmap(":/images/StartBack.png"));
     ui->startBackView->setScene(scene);
 }
 void MainWindow::placingShips()
 {
     ui->stackedWidget->setCurrentIndex(1);
-    scene->addPixmap(QPixmap(":/new/images/PlacingBack.png"));
+    scene->addPixmap(QPixmap(":/images/PlacingBack.png"));
     ui->placingBackVIew->setScene(scene);
     for(int i=0; i<10; i++)
     {
@@ -98,7 +98,7 @@ void MainWindow::placingShips()
 void MainWindow::game()
 {
     ui->stackedWidget->setCurrentIndex(2);
-    scene->addPixmap(QPixmap(":/new/images/FieldBack.png"));
+    scene->addPixmap(QPixmap(":/images/FieldBack.png"));
     ui->fieldBackView->setScene(scene);
     for(int j=0; j<=9; j++)
     {
